@@ -1,10 +1,12 @@
-# github-docs-example
+## github-docs-example
 
 [Jump to references](#references)
 
-## Step 1 - Using Codeblocks
+# GFM - Useful Quick References
 
-Codeblocks are marked using the **back tick (```)**, located on the same key as the tilde, at the head and foot of the code block. Language used can be tagged in line with the header.
+## Code Blocks
+
+Codeblocks are best marked by using the **back tick (```)** or **tilde (~~~)**, at the head and foot of the code block. Language used can be tagged in line with the header.
 
 ``` python
 def factorial(n):
@@ -20,16 +22,44 @@ print(f"The factorial of {number} is {result}")
 
 ```
 
+## Formatting
+
+### HTML
+
 HTML can be used to:
 
 * Format
 * Insert images
 
+This:
+``` html
+<img width=300px src="https://github.com/Moosequatch/github-docs-example/blob/main/Screenshot%202023-09-23%20134842.png?raw=true">
+```
+
+Produces This:
+
 <img width=300px src="https://github.com/Moosequatch/github-docs-example/blob/main/Screenshot%202023-09-23%20134842.png?raw=true">
 
-## References
+HTML can be used for workarounds such as image resizing.
 
-All markdown syntax can be found in the following links, including tables, emojis, ect. :thumbsup:
+### Formatting, Quoting and Emojis
+
+|Format                  |GFM Code                  |
+|------------------------|--------------------------|
+|       **Bold**         |       `**Bold**`         |
+|       *Italics*        |       `*Italics*`        |
+|  ***Bold + Italics***  |  `***Bold + Italics***`  |
+|   ~~Strikethrough~~    |   `~~Strikethrough~~`    |
+|  <sub>Subscript</sub>  |  `<sub>Subscript</sub>`  |
+| <sup>Superscript</sup> | `<sup>Superscript</sup>` |
+|   Smile Emoji :smile:  |  `Smile Emoji :smile:`   |
+
+Text can be quoted by using `>` at the start of the line.
+>Text can be quoted by using `>` at the start of the line.
+
+```>Text can be quoted by using `>` at the start of the line.```
+
+## References
 
 [Basic Writing and Formatting Doc](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
