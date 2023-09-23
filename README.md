@@ -2,7 +2,7 @@
 
 ## Step 1 - Using Codeblocks
 
-Codeblocks are marked using the **back tick (```)** as a header and footer of the code block. Language used can be tagged in line with the head (``` python).
+Codeblocks are marked using the **back tick (```)**, located on the same key as the tilde, at the head and foot of the code block. Language used can be tagged in line with the header.
 
 HTML can be used to format documents.
 
@@ -20,3 +20,4 @@ print(f"The factorial of {number} is {result}")
 
 ```
 
+<img width=300px src="https://github.com/Moosequatch/github-docs-example/blob/main/Screenshot%202023-09-23%20134842.png?raw=true">
